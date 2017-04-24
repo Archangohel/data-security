@@ -10,7 +10,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 /**
  * Identity of the target entity.
  *
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 @Target(TYPE)
 @Retention(RUNTIME)

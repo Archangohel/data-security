@@ -6,7 +6,7 @@ import java.security.Principal;
 
 /**
  * This is the user that the client needs to cast to. Or user can return any {@code Principal} object.
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 
 @Component

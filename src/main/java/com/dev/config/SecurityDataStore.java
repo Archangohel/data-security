@@ -16,7 +16,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * Created by archangohel on 03/07/16.
+ * Security database config.
+ * @author Archan Gohel
  */
 
 @Configuration
@@ -24,16 +25,13 @@ import java.util.Properties;
 public class SecurityDataStore {
 
     @Bean(name = "securityDataSource")
-    //@ConfigurationProperties(prefix = "spring.datasource.security")
     public DataSource getSecurityDataSource() {
-        //return DataSourceBuilder.create().build();
         Properties props = new Properties();
         FileInputStream fis = null;
         MysqlDataSource mysqlDS = null;
         try {
-            Resource resource = new ClassPathResource("global.properties");//src/main/resources/global.properties");
+            Resource resource = new ClassPathResource("global.properties");
             fis = new FileInputStream(resource.getFile());
-            //fis = new FileInputStream("/Users/archangohel/work/findology/workspace/3.7-release/data-security/src/main/resources/global.properties");
             props.load(fis);
             mysqlDS = new MysqlDataSource();
             mysqlDS.setURL(props.getProperty("spring.datasource.securitydb.url"));

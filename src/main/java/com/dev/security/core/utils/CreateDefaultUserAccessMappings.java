@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Used to create default mappings for e2e testing purpose.
- * Created by archangohel on 03/07/16.
+ * @author Archan Gohel
  */
 
 @Component

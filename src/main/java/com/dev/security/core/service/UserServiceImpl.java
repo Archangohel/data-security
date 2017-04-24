@@ -8,7 +8,7 @@ import java.security.Principal;
 /**
  * Only for testing purpose for now.
  *
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 
 @Component

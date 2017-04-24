@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * Utility for fetching security related info from the target object.
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 public class SecureObjectPropertyUtils {
     private static Logger logger = LoggerFactory.getLogger(SecureObjectPropertyUtils.class);

@@ -8,7 +8,7 @@ import java.security.Principal;
 /**
  * only for testing purpose
  *
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 
 public interface UserService {

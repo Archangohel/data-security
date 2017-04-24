@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  *
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 @Configuration
 @EnableAspectJAutoProxy(proxyTargetClass = true)

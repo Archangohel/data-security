@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Annotation to be applied to the target method or class that should have the secure access.
  *
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 
 @Target({ElementType.TYPE, ElementType.METHOD})

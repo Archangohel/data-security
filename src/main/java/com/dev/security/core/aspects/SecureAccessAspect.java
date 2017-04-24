@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * Aspect that get executed around the secure method. It intercept the response and return only the accessible objects.
  *
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 
 @Aspect

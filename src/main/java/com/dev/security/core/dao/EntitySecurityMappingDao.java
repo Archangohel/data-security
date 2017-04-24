@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * DAO to access the security mappings for user.
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 
 @Component

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * Application will be the owner of the entity_id. Typically this three values makes a unique key, that
  * will be used by the security utility.
  *
- * @auther Archan Gohel
+ * @author Archan Gohel
  */
 
 @Component
